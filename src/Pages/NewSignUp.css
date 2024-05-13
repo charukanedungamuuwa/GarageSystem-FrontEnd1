@@ -1,0 +1,25 @@
+.login-form {
+    max-width: 300px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    
+    background-color: #007bff;
+
+    
+
+
+
+  }
+
+  .loginfull{
+
+    position: relative;
+    left: 1500px;
+    top: -800px;
+  }

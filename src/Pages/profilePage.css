@@ -1,0 +1,80 @@
+/* ProfilePage.css */
+
+/* Form and Fields */
+.input-field {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Profile Pic and Edit Button */
+.profilepic {
+  width: 120px;
+  height: 120px;
+}
+
+.btn-primary {
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Info Tab */
+.grid {
+  display: grid;
+}
+
+.bg-gray-200 {
+  background-color: #edf2f7;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.text-gray-600 {
+  color: #4a5568;
+}
+
+/* Buttons Tab */
+.btn-secondary {
+  background-color: #2d3748;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-secondary:last-child {
+  margin-right: 0;
+}
+
+.input-field {
+    border-radius: 5px;
+    background-color: rgb(244, 243, 250);
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  .input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+  }
+  .input-editable {
+    /* Highlight style for editable fields */
+    border-color: #007bff; /* Change to your desired highlight color */
+    background-color: #ffffffde;
+  }
+/* Basic Information */
